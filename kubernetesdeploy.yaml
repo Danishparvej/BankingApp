@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: bankapp-eta-container
-        image: loksaieta/bankapp-eta-app
+        image: danish1998/bankapp-eta-app
         ports:
         - containerPort: 8082
 ---
@@ -33,5 +33,5 @@ spec:
   type: NodePort
   ports:
   - nodePort: 31002    
-    port: 8082
-    targetPort: 8082
+    port: 8084
+    targetPort: 8084
